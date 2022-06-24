@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,500,600,700&amp;subset=cyrillic-ext"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta name="description" content="Описание страницы" />
+    <meta name="keywords" content="создание сайтов, верстка сайтов" />
+    <meta name="google" content="notranslate" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/images/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/images/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./assets/images/favicons/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Fusion Travel</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header_inner">
+          <a href="#" class="header_logo" data-scroll="#intro">
+            Fusion<span>Travel</span>
+          </a>
+
+          <nav class="nav" id="nav">
+            <a class="nav_link" href="#" data-scroll="#intro">Home</a>
+            <a class="nav_link" href="#" data-scroll="#services">Services</a>
+            <a class="nav_link" href="#" data-scroll="#about">About Us</a>
+            <a class="nav_link" href="#" data-scroll="#clients">Our Clients</a>
+            <a class="nav_link" href="#" data-scroll="#blog">Blog</a>
+            <a class="nav_link" href="#" data-scroll="#footer">Contact Us</a>
+            <a class="nav_link" target="_blank" href="#">
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              +516 260 0598
+            </a>
+          </nav>
+
+          <button class="burger" type="button" id="navToggle">
+            <span class="burger__item">Menu</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Intro -->
+    <div class="intro" id="intro">
+      <div class="container">
+        <div class="intro_inner">
+          <h1 class="intro_title">Fusion Travel</h1>
+          <h2 class="intro_subtitle">
+            Nam consectetur elementum neque vitae condimentum. Aenean dignissim,
+            turpis et tincidunt finibus, massa purus malesuada metus, a commodo
+            velit magna nec nibh. Donec dictum fringilla tempus. Nunc rhoncus
+            sapien lectus, non fermentum neque euismod quis. Phasellus sagittis
+            tortor in accumsan
+          </h2>
+          <a class="btn btn--yellow" href="#">Plan Your Trip</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section_header">
+          <h2 class="section_title">Welcome to Fusion</h2>
+          <p class="section_text">
+            Nam consectetur elementum neque vitae condimentum. Aenean dignissim,
+            turpis et tincidunt finibus, massa purus malesuada metus, a commodo
+            velit magna nec nibh. Donec dictum fringilla tempus. Nunc rhoncus
+            sapien lectus, non fermentum neque euismod quis. Phasellus sagittis
+            tortor in accumsan
+          </p>
+        </div>
+
+        <div class="services">
+          <div class="services_item">
+            <div class="services_icon">
+              <i class="fa fa-plane"></i>
+            </div>
+            <div class="services_title">Best Price Guarantee</div>
+            <div class="services_text">
+              SpaceTeam bootstrapping user centered design sticky note
+              convergence fund parallax
+            </div>
+          </div>
+
+          <div class="services_item">
+            <div class="services_icon">
+              <i class="fa fa-heart"></i>
+            </div>
+            <div class="services_title">Best Travel Agency</div>
+            <div class="services_text">
+              User story Steve Jobs Stev Jobs iterate human-centered design
+              iterate pair progra ming 360 campaign.
+            </div>
+          </div>
+
+          <div class="services_item">
+            <div class="services_icon">
+              <i class="fa fa-star"></i>
+            </div>
+            <div class="services_title">Trust & Safety</div>
+            <div class="services_text">
+              Thought leader cortado viral viral earned media long shadow
+              actionable insight waterfall is so 2000
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section_header">
+          <h2 class="section_title">Find Your Destination</h2>
+          <h4 class="section_subtitle">
+            Most Popular Places Are Waiting For You
+          </h4>
+        </div>
+
+        <form action="" method="post" class="search">
+          <input type="search" name="" placeholder="поиск" class="input" />
+          <input type="submit" name="" value="" class="submit" />
+        </form>
+
+        <div class="about">
+          <div class="about_cards">
+            <div class="about_item">
+              <img src="/assets/images/Cards_37.png" alt="" />
+              <img src="/assets/images/Cards_37.png" alt="" />
+            </div>
+
+            <div class="about_item">
+              <img src="/assets/images/Cards_41.png" alt="" />
+              <img src="/assets/images/Cards_41.png" alt="" />
+            </div>
+
+            <div class="about_item">
+              <img src="/assets/images/Cards_42.png" alt="" />
+              <img src="/assets/images/Cards_42.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blogs -->
+    <section class="section" id="blog">
+      <div class="container">
+        <div class="section_header">
+          <h2 class="section_title">Latest News From Blog</h2>
+          <h4 class="section_subtitle">
+            See Whats People Are Sharing Their Thoughts
+          </h4>
+        </div>
+
+        <div class="blogs">
+          <div class="blogs_col">
+            <div class="blogs_item">
+              <div class="blogs_content">
+                <div class="blogs_title">
+                  Most Beautiful Place In The World - Istunbul
+                </div>
+                <div class="blogs_text">
+                  Venture capital food-truck minimum viable product ideate pitch
+                  deck experiential cortado affordances parallax
+                </div>
+              </div>
+              <img class="blogs_img" src="/assets/images/Cards_37.png" alt="" />
+            </div>
+
+            <div class="blogs_item">
+              <div class="blogs_content">
+                <div class="blogs_title">
+                  Most Beautiful Place In The World - Istunbul
+                </div>
+                <div class="blogs_text">
+                  Venture capital food-truck minimum viable product ideate pitch
+                  deck experiential cortado affordances parallax
+                </div>
+              </div>
+              <img class="blogs_img" src="/assets/images/Cards_37.png" alt="" />
+            </div>
+          </div>
+
+          <div class="blogs_col">
+            <div class="blogs_item">
+              <div class="blogs_content">
+                <div class="blogs_title">The Statue Of Liberty Travel</div>
+                <div class="blogs_text">
+                  Qualitative ship it user story grok SpaceTeam waterfall is so
+                  2000 and late quantitative vs.
+                </div>
+              </div>
+              <img class="blogs_img" src="/assets/images/Cards_41.png" alt="" />
+            </div>
+
+            <div class="blogs_item">
+              <div class="blogs_content">
+                <div class="blogs_title">The Statue Of Liberty Travel</div>
+                <div class="blogs_text">
+                  Qualitative ship it user story grok SpaceTeam waterfall is so
+                  2000 and late quantitative vs.
+                </div>
+              </div>
+              <img class="blogs_img" src="/assets/images/Cards_41.png" alt="" />
+            </div>
+          </div>
+
+          <div class="blogs_col">
+            <div class="blogs_item">
+              <div class="blogs_content">
+                <div class="blogs_title">
+                  The Best Natural Paradise - Shimla
+                </div>
+                <div class="blogs_text">
+                  Ship it integrate prototype fund human-centered design
+                  integrate big data convergence.
+                </div>
+              </div>
+              <img class="blogs_img" src="/assets/images/Cards_42.png" alt="" />
+            </div>
+
+            <div class="blogs_item">
+              <div class="blogs_content">
+                <div class="blogs_title">
+                  The Best Natural Paradise - Shimla
+                </div>
+                <div class="blogs_text">
+                  Ship it integrate prototype fund human-centered design
+                  integrate big data convergence.
+                </div>
+              </div>
+              <img class="blogs_img" src="/assets/images/Cards_42.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="btn_center">
+          <a class="btn btn--yellow" href="#">Keep Reading</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Clients -->
+    <section class="section" id="clients">
+      <div class="container">
+        <div class="section_header">
+          <h2 class="section_title">What Our Client Says</h2>
+          <h4 class="section_subtitle">
+            People’s sharing their thought about our works
+          </h4>
+        </div>
+
+        <div class="clients">
+          <div class="clients_item">
+            <img class="clients_img" src="/assets/images/Cards_37.png" alt="" />
+            <div class="clients_content">
+              <div class="clients_text">
+                Integrate 360 campaign viral disrupt pair programming latte
+                paradigm hacker 360 campaign cortado bootstrapping.
+                Thinker-maker-doer paradigm affordances viral bootstrapping ship
+                it human-centered design waterfall is so 2000 and late
+                responsive integrate parallax.
+              </div>
+              <div class="clients_author">Dimitri Vegas</div>
+              <div class="clients_adress">London, England</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 1st Journey -->
+    <div class="journey">
+      <div class="container">
+        <div class="journey_item">
+          <div class="journey_text">
+            Get special discount on your first journey
+          </div>
+          <a class="btn btn--border" href="#">Book Now</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer_inner">
+          <div class="footer_blocks footer_blocks--1">
+            <div class="footer_block footer_block--1">
+              <h4 class="footer_title">About Us</h4>
+              <ul class="footer_content">
+                <li><a href="#" data-scroll="#services">Services</a></li>
+                <li><a href="#" data-scroll="#about">About Us</a></li>
+                <li><a href="#" data-scroll="#clients">Our Clients</a></li>
+                <li><a href="#" data-scroll="#blog">Blog</a></li>
+                <li><a href="#" data-scroll="#footer">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div class="footer_block footer_block--2">
+              <h4 class="footer_title">Adress</h4>
+              <address class="footer_address">
+                <div class="footer_street">4433 Heavner Court</div>
+                <div class="footer_count">Plainview, New York</div>
+              </address>
+              <address class="footer_contact">
+                <div class="footer_mail">Email: help@agency.com</div>
+                <div class="footer_phone">Cell: +516-260-0598</div>
+              </address>
+            </div>
+          </div>
+
+          <div class="footer_blocks footer_blocks--2">
+            <div class="footer_block footer_block--3">
+              <h4 class="footer_title">Contact Us</h4>
+              <address class="footer_contact">
+                <div class="footer_mail">Email: help@agency.com</div>
+                <div class="footer_phone">Cell: +516-260-0598</div>
+              </address>
+              <address class="footer_address">
+                <div class="footer_street">4433 Heavner Court</div>
+                <div class="footer_count">Plainview, New York</div>
+              </address>
+            </div>
+
+            <div class="footer_block footer_block--4">
+              <h4 class="footer_title">Follow Us</h4>
+              <div class="social social--footer">
+                <a class="social_item" href="#" target="_blank">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a class="social_item" href="#" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a class="social_item" href="#" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="copyright">
+        <div class="container">
+          <div class="copyright__text">
+            <div>Copyright@Parag 2016, All Rights Reserved</div>
+            <div>Made <span>by Kamal Chaneman</span></div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
